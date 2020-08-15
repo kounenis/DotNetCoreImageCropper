@@ -1,3 +1,21 @@
 Console app in .NET Core that uses ImageSharp library to crop an image to specified dimensions
 
+  --startx     (Default: 0) Crop x start coordinate.
+
+  --starty     (Default: 0) Crop x start coordinate
+
+  --width      Required. Crop width
+
+  --height     Crop height
+
+  --source     Required. Source image
+
+  --target     Required. Target image
+
+  --help       Display this help screen.
+
+  --version    Display version information.
+  
+Example usage:
 --source "C:\source.jpg" --target "C:\result.jpg" --width 1500 --height 307 --startx 968 --starty 17
+koun
